@@ -1,0 +1,23 @@
+{
+    "flow_name": "HV-Code-Fusion",
+    "flow_inputs": {
+        "input_format": [
+            null,
+            "string"
+        ],
+        "output_format": [
+            "",
+            "string"
+        ],
+        "code": [
+            "",
+            "string"
+        ]
+    },
+    "flow_path": "//mount/src/HV-CodeFusion/HV-Code-Fusion/build/flow/flow.dag.yaml",
+    "is_chat_flow": true,
+    "chat_history_input_name": "chat_history",
+    "label": "Chat",
+    "chat_output_name": "answer",
+    "is_streaming": true
+}
