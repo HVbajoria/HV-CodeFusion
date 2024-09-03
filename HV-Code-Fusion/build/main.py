@@ -181,12 +181,7 @@ def start():
                 json_data = json.load(file)
             environment_variables = list(json_data.keys())
             for environment_variable in environment_variables:
-                secret_input = st.sidebar.text_input(
-                    label=environment_variable,
-                    type="password",
-                    placeholder=f"Please input {environment_variable} here. "
-                    f"If you input before, you can leave it blank.",
-                )
+                secret_input = st.secrets['azure_open_ai']
                 if secret_input != "":
                     os.environ[environment_variable] = secret_input
 
