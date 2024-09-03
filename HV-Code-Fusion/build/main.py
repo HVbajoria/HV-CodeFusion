@@ -23,7 +23,7 @@ def run_command():
         "--file", "/mount/src/hv-codefusion/HV-Code-Fusion/build/flow/azure_openai.yaml",
         "--set", "api_key=1a3ebd4ab5ff46c2b2736e1e2fcb1b1a",
         "api_base=https://hvcode-fusion.openai.azure.com/",
-        "--name", "open_ai_connection"
+        "--name", "azure_open_ai"
     ]
     try:
         subprocess.run(command, check=True)
