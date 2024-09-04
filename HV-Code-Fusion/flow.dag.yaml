@@ -18,6 +18,9 @@ inputs:
     type: string
     default: ""
     is_chat_input: true
+  languages:
+    type: string
+    default: ""
 outputs:
   answer:
     type: string

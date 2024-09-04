@@ -57,6 +57,11 @@
           "type": [
             "string"
           ]
+        },
+        "languages": {
+          "type": [
+            "string"
+          ]
         }
       },
       "source": "multilang.jinja2"
