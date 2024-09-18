@@ -47,7 +47,7 @@ nodes:
     temperature: 0.7
     top_p: 1
     response_format:
-      type: text
+      type: json_object
     question: ${driver_code.output}
   connection: azure_open_ai
   api: chat
@@ -71,7 +71,7 @@ nodes:
     temperature: 0.7
     top_p: 1
     response_format:
-      type: text
+      type: json_object
     question: ${multilang.output}
   connection: azure_open_ai
   api: chat
