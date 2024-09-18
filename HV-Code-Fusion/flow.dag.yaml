@@ -59,6 +59,7 @@ nodes:
     path: multilang.jinja2
   inputs:
     code: ${driver_code_gen.output}
+    languages: ${inputs.languages}
   use_variants: false
 - name: multilang_gen
   type: llm
