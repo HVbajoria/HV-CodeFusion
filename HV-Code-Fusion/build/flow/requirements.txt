@@ -6,7 +6,6 @@ docstring_parser
 psutil
 jsonschema
 filetype
-flask
 python-dateutil
 fastapi
 azure-identity
@@ -30,14 +29,9 @@ azure-monitor-opentelemetry-exporter
 pyarrow
 pillow
 opentelemetry-exporter-otlp-proto-http
-flask-restx
-flask-cors
 pyinstaller
-streamlit
-streamlit-quill
 bs4
 argcomplete
-streamlit
 pyinstaller
 promptflow
 promptflow-core
